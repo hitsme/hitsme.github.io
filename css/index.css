@@ -1,0 +1,426 @@
+/**!
+ * 丹阳门户网站-首页
+ * author: xx;
+ * date: 20161219
+ */
+ 
+body{
+	font-size: 14px;
+	font-family: "Microsoft YaHei";
+
+}
+.weather{
+	height: 38px;
+	background-color:#f5f5f5;
+	line-height: 38px;
+	text-align: center;
+
+}
+.container{
+	
+	width: 998px;
+	margin:0 auto;
+}
+.weather p
+ {
+ 	float: left;
+ }
+ .weather ul
+ {
+ 	float: left;
+ }
+  .weather li{
+	float: left;
+}
+.weather ul
+{
+	margin-left: 150px;
+
+}
+.weather li a
+{
+	color: #4a90e1;
+	margin-left: 40px;
+   width: 82px;
+	height: 24px;
+}
+.quit-img
+{
+	float: right;
+	margin-top: 8px;
+	width: 20px;
+	height: 17px;
+    background-image: url("../images/quit.png");
+    background-repeat: no-repeat;
+    background-position: -25px 0px;
+     
+}
+.weather  a:hover{
+	background-color: #4b8fe1;
+	color: #fff;
+	border-radius: 4px;
+
+
+}
+.shouye-font{
+	font-weight: bold;
+}
+.logosearch-area{
+    
+	position: relative;
+	height: 146px;
+	width: 998px;
+	top: 40px;
+}
+.btn-question
+{
+	float: right;
+	border: none;
+	width: 90px;
+	height: 40px;
+	background-color: #5ac592;
+}
+.search{
+	float: right;
+	width: 550px;
+	height: 60px;
+}
+.search-btn{
+   float: right;
+    margin-right: 10px;
+	width: 90px;
+	height: 40px;
+	background: url("../images/search-icon.png") center center;
+	background-repeat: no-repeat;
+	background-color:#247ae2;
+	border: none;
+}
+.input-area{
+	float: right;
+	width: 342px;
+	height: 40px;
+	
+}
+.img-logo
+{
+
+	float: left;
+}
+.shouyelan
+{
+
+
+	position: relative;
+	right: px;
+	height: 33px;
+	background-color:#f5f5f5;
+
+
+}
+.position-img{
+	margin-top: 3px;
+	margin-left: 10px;
+
+}
+.font-sy
+{
+	position: relative;
+	left: 10px;
+	bottom: 5px;
+	
+	
+}
+.font-shenp
+{
+	position: relative;
+	color: #4b8fe1;
+	bottom: 5px;
+	left: 15px;
+}
+.font-resou{
+	color: #4b8fe1;
+	
+}
+.resou
+{
+	float: left;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+.font-shouye
+{
+	float: left;
+}
+.shixiang-tab{
+	float: left;
+	width: 188px;
+	height: 313px;
+	border: 1px #f5f5f5 solid;
+   
+
+	
+}
+.shixiang-tab ul li
+{
+
+font-weight: bold;
+color: #333;
+line-height: 42px;
+margin-top: 15px;
+text-align: center;
+
+}
+.shixiangxz
+{
+ margin-top: 10px;
+	height: 313px;
+	width: 998px;
+	border: 1px #f5f5f5 solid;
+}
+.shixiang-tab li:hover
+{
+background-color: #58a1f8;
+color: white;
+}
+
+.btn-tab-s
+{
+	float: right;
+	width: 30px;
+	height: 30px;
+	background: url("../images/search-icon2.png");
+	background-repeat: no-repeat;
+	border: none;
+	margin-top: 5px;
+}
+.search-tab-area
+{
+	float: right;
+	width: 204px;
+	
+	margin-right: 10px;
+	height: 30px;
+	border: 1px #f5f5f5 solid;
+	border-radius: 20px;
+}
+.search-tab
+{
+	float: right;
+}
+.tab-img-ul li
+{
+	float: right;
+	margin-top: 8px;
+	margin-right: 10px;
+	width: 80px;
+	height: 180px;
+}
+.tab-img-ul a
+{
+	float: right;
+	width:90px;
+	height: 90px; 
+	margin-right: 50px;
+}
+.tab-img-ul p
+{
+	
+	line-height: 20px;
+	margin-left: 8px;
+}
+.tab-img-ul li
+{
+	float: right;
+	margin-right: 50px;
+}
+.li2
+{
+	position: relative;
+	margin-top: 80px;
+	top:30px;
+
+}
+.lusetongdao
+{
+	width: 326px;
+	height: 521px;
+	float: right;
+	margin-top: 8px;
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+
+}
+.lvsetd-btn{
+	text-align: center;
+	line-height: 78px;
+	background: url("../images/green-channel.jpg");
+	width: 326px;
+	height: 78px;
+	color: #fff;
+}
+.shenpin-btn
+{
+  text-align: center;
+	line-height: 78px;
+	background: url("../images/bingliancx.jpg");
+	width: 326px;
+	height: 78px;
+	color: #fff;
+	margin-top: 10px;
+}
+.banjiancx
+{
+	width: 326px;
+	height: 35px;
+	background-color: #ecf6fe;
+	margin-top: 10px;
+}
+.xian{
+
+	background-color: #237be2;
+	width: 5px;
+	height: 25px;
+	border-radius: 3px;
+	margin-left: 15px;
+	float: left;
+
+}
+.banjiancx span
+{
+	color: #237be2;
+	font-size: 14px;
+	font-weight: bold;
+   float: left;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+.input-area-bj
+{
+	margin-top: 10px;
+	font-size: 14px;
+	width: 326px;
+	height: 28px;
+}
+.input-bj
+{
+	width: 175px;
+	height: 28px;
+
+}
+.btn-bj
+{
+	height: 28px;
+	width: 62px;
+	background-color: #237be2;
+	margin-right: 0px;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	margin-top:; 
+}
+.date-tjcx
+{
+
+}
+.tj-map
+{
+	margin-top: 5px;
+	width: 326px;
+	height: 145px;
+}
+.xiaonengtj-btn
+{
+text-align: center;
+	line-height: 78px;
+	background: url("../images/xiaonengtj.jpg");
+	width: 326px;
+	height: 78px;
+	color: #fff;
+	margin-top: 10px;	
+}
+.banjiangs-table
+{
+	
+width: 665px;
+height: 320px;
+float: left;
+
+}
+.banjiangs-top
+{
+	float:left;
+	width: 665px;
+	height: 35px;
+	background-color: #ecf6fe;
+	margin-top: 10px;
+}
+.banjiangs-top span
+{
+	color: #237be2;
+	font-size: 14px;
+	font-weight: bold;
+   float: left;
+   margin-left: 15px;
+   margin-top: 5px;
+}
+.banjiangs-table-top
+{
+	float: left;
+	margin-top: 10px;
+	width: 665px;
+	height: 35px;
+	background-color: #f3f3f3;
+}
+.banjiangs-table-top span
+{
+	line-height: 35px;
+	text-align: center;
+	margin-left: 40px;
+
+}
+.gs-table
+{
+width: 665px;
+height: 320px;
+float: left;
+border: 1px #f5f5f5 solid
+}
+.banjiangs-table tr,th
+{
+	border: 1px #f5f5f5 solid
+}
+.foot
+{
+	position: relative;
+	top: 20px;
+	background-color: #f5f5f5;
+	height: 90px;
+	clear: both;
+}
+.img-province
+{
+    position: relative;
+	top: 20px;
+	left: 50px;
+}
+.span-foot
+{
+	position: relative;
+	top: 15px;
+	left: 50px;
+	margin-left: 150px;
+	
+}
+.red-img
+{
+position: relative;
+	top: 30px;
+	left: 150px;	
+}
+.tabs
+{
+	font-size: 25px;
+	line-height: 313px;
+	text-align: center;
+}
